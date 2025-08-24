@@ -1,0 +1,45 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Street Tee',
+    price: 1400,
+    image: '/images/WhatsApp Image 2025-08-22 at 10.16.01 PM.png', // White variant as default
+    category: 'shirts',
+    description: 'Premium cotton streetwear tee with modern fit',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['White', 'Black'],
+    colorImages: {
+      'White': '/images/WhatsApp Image 2025-08-22 at 10.16.01 PM.png',
+      'Black': '/images/WhatsApp Image 2025-08-22 at 10.16.02 PM.png'
+    }
+  },
+  {
+    id: '2',
+    name: 'Leather Jacket',
+    price: 4500,
+    image: '/images/WhatsApp Image 2025-08-22 at 10.16.04 PM.png',
+    category: 'outerwear',
+    description: 'Premium leather jacket for ultimate street style',
+    sizes: ['S', 'M', 'L', 'XL']
+  },
+  {
+    id: '3',
+    name: 'Baggy Jeans Classic',
+    price: 2700,
+    image: '/images/WhatsApp Image 2025-08-22 at 10.16.04 PM (1).png',
+    category: 'bottoms',
+    description: 'Classic baggy jeans with relaxed fit',
+    sizes: ['28', '30', '32', '34', '36']
+  },
+  {
+    id: '4',
+    name: 'Baggy Jeans Vintage',
+    price: 2850,
+    image: '/images/WhatsApp Image 2025-08-22 at 10.16.05 PM.png',
+    category: 'bottoms',
+    description: 'Vintage-washed baggy jeans with distressed details',
+    sizes: ['28', '30', '32', '34', '36']
+  }
+];
